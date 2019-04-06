@@ -23,10 +23,22 @@ class Puzzle extends React.Component {
 
     //manage shuffle
 
-    shuffle= (o) =>{
-        const tempV = o.slice();
-        for(let j, x, i = tempV.length; i; j = Math.floor(Math.random() * i), x = tempV[--i], tempV[i] = tempV[j], tempV[j] = x)
-        return tempV;
+    shuffle= (array) =>{
+        // const tempV = o.slice();
+        let currentIndex = array.length, temporaryValue, randomIndex;
+
+        while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+            return array;
+
     };
     render() {
         return (
