@@ -85,7 +85,7 @@ npm run start
 ```
 or
 ```bash
-npm install
+npm start
 ```
 
 ### To build this project for production use
