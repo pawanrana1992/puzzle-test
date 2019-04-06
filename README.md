@@ -41,3 +41,39 @@ Create a tile puzzle interface that consists of a frame divided into even tiles 
 
 ## Reference
 <https://en.wikipedia.org/wiki/15_puzzle>
+
+## hierarchy of project
+
+<pre>
+=> root
+     |
+     -public
+        |
+        ->  favicon.ico
+        ->  index.html
+        ->  manifest.json
+      -> src
+        |
+        -> App
+            |
+            -> assets
+            -> sass
+                |
+                    -> mixins
+                    ->utility
+                    -> _variable.scss
+                    -> _export_to_component.scss // it is exporting variable and mixins for use in seperate component
+                    ->app-style.scss
+            -> component
+                |
+                 -> Board
+                 -> Tile
+                 -> Pages
+       
+         -> app.js
+         -> index.js
+         -> serviceWorkey.js // for handle PWA type of application
+
+</pre>
+
+

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Puzzle from "./App/pages/Puzzle";
+import Puzzle from "./App/Pages/Puzzle";
 
 class App extends Component {
   render() {
