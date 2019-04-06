@@ -44,10 +44,11 @@ class Board extends React.Component {
 
     tileClickHandler(index) {
         if (index === this.state.possibleTopIdx || index === this.state.possiblRightIdx ||
-            index === this.state.possiblBottomIdx || index === this.state.possibleLeftIdx) this.nextBoard(index);
+            index === this.state.possiblBottomIdx || index === this.state.possibleLeftIdx)
+            this.nextBoard(index);
     }
 
-    nextBoard(index, direction) {
+    nextBoard(index) {
         const board = this.props.board.slice();
         const temp = board[index];
         board[index] = board[this.state.zero];

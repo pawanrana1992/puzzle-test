@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1728f13c-cbd8-439d-be08-efd5577afa63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/components/Board/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/components/Board/Board.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
           <entry key="css" value="5" />
           <entry key="gitignore" value="2" />
           <entry key="js" value="6" />
-          <entry key="json" value="1" />
+          <entry key="json" value="2" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
           <entry key="scss" value="12" />
@@ -33,7 +34,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="2" />
           <entry key="JavaScript" value="6" />
           <entry key="Log" value="1" />
           <entry key="Markdown" value="1" />
@@ -45,16 +46,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="7" />
-          <entry key="js" value="1054" />
-          <entry key="md" value="2461" />
+          <entry key="js" value="1055" />
+          <entry key="md" value="6008" />
           <entry key="scss" value="1387" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="JavaScript" value="1054" />
-          <entry key="Markdown" value="2461" />
+          <entry key="JavaScript" value="1055" />
+          <entry key="Markdown" value="6008" />
           <entry key="SCSS" value="1387" />
         </counts>
       </usages-collector>
@@ -74,20 +75,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/components/Board/Board.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="146">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/components/Board/_board.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -105,6 +97,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/Pages/_Puzzle.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -117,8 +114,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="246">
-                <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+              <first_editor relative-caret-position="680">
+                <caret line="247" column="10" selection-start-line="247" selection-start-column="10" selection-end-line="247" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -147,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/components/Tile/Tile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+            <state>
+              <caret selection-end-line="39" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -170,8 +167,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Cell</find>
-      <find>updateBoard</find>
       <find>find</find>
+      <find>updateBoard</find>
+      <find>nextBoard</find>
       <find>shuffle</find>
     </findStrings>
   </component>
@@ -197,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/App/components/Tile/Tile.js" />
         <option value="$PROJECT_DIR$/src/App/assets/sass/mixins/_border-radius.scss" />
         <option value="$PROJECT_DIR$/src/App/assets/sass/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/App/components/Board/Board.js" />
         <option value="$PROJECT_DIR$/src/App/assets/sass/mixins/_transition.scss" />
         <option value="$PROJECT_DIR$/src/App/assets/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/App/pages/Puzzle.js" />
@@ -206,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/App/components/Tile/_tile.scss" />
         <option value="$PROJECT_DIR$/src/App/pages/_Puzzle.scss" />
         <option value="$PROJECT_DIR$/src/App/Pages/Puzzle.js" />
+        <option value="$PROJECT_DIR$/src/App/components/Board/Board.js" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -365,12 +363,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554553049822</updated>
-      <workItem from="1554553052310" duration="11244000" />
+      <workItem from="1554553052310" duration="15785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11244000" />
+    <option name="totallyTimeSpent" value="15785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -496,16 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/components/Tile/Tile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/components/Board/_board.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -537,16 +525,26 @@
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/components/Board/Board.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        <state relative-caret-position="146">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/components/Tile/Tile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -563,11 +561,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="246">
-            <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+          <first_editor relative-caret-position="680">
+            <caret line="247" column="10" selection-start-line="247" selection-start-column="10" selection-end-line="247" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
