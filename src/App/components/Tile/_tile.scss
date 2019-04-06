@@ -1,0 +1,18 @@
+@import "../../assets/sass/export_to_component";
+
+.tile{
+  line-height: 1;
+  text-align: center;
+  display: block;
+  background-color: $white;
+  @include border-radius($border-radius*2);
+  font-weight: 700;
+  font-family: $base-font-family;
+  cursor: pointer;
+  color:lighten($black, 20%);
+  @include transition(all 200ms ease-in-out);
+  &.zero{
+    background-color: transparent;
+  color: lighten($black, 20%);
+  }
+}

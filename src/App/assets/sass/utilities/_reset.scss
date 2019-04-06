@@ -1,10 +1,6 @@
-/*
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
-Twitter: @rich_clark
-*/
+// added font family roboto
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -28,7 +24,18 @@ time, mark, audio, video {
 }
 
 body {
-    line-height:1;
+    line-height:$base-line-height;
+    background-color: lighten($black,10%);
+    color: $body-color;
+    font-family: $base-font-family;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 article,aside,details,figcaption,figure,

@@ -1,0 +1,58 @@
+@import "../assets/sass/export_to_component";
+
+.page{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  >div{
+    flex: 1 30%;
+    @media screen and(max-width: 768px){
+      flex: 1 100%;
+    }
+  }
+}
+.wrap-pz{
+  position: relative;
+  max-width: 420px;
+  margin: auto;
+  text-align: center;
+  .body-wrap{
+    position: relative;
+    max-width: 420px;
+    padding: $spacer/3;
+    background-color: lighten($black, 20%);
+    @include border-radius($border-radius*2);
+    margin-bottom: $spacer;
+    .header{
+      text-align: center;
+      display: block;
+      padding: $spacer;
+      margin-bottom: $spacer;
+      color:darken($white, 20%);
+      background-color: lighten($black,30%);
+      @include border-radius($border-radius*2);
+
+    }
+  }
+
+  .btn{
+    margin: auto;
+    position: relative;
+    padding: $spacer;
+    background-color: $primary-color;
+    border: 0;
+    @include border-radius($border-radius);
+    color: $white;
+    font-weight: 700;
+    cursor: pointer;
+    outline:none;
+    @include transition(all 200ms ease-in-out);
+    &:hover,&:focus{
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}
