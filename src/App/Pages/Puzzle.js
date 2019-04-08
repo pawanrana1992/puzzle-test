@@ -1,10 +1,22 @@
 import React from "react";
 import Board from "../components/Board/Board";
 import './_Puzzle.scss';
+import PropTypes from 'prop-types';
 class Puzzle extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { board: [1, 2, 3, 4, 5, 6, 7, 8,9,10,11,12,13,14,15, 0], size: 4 };
+        this.state = { board: [], size: 0 };
+    }
+    componentDidMount(){
+        const {puzzleSize} = this.props;
+        let sizeArray = [];
+        for (let idx = 0; idx<puzzleSize*puzzleSize; idx++){
+            sizeArray.push(idx);
+        }
+        this.setState({
+            board:sizeArray,
+            size:puzzleSize,
+        })
     }
 
 
@@ -17,8 +29,8 @@ class Puzzle extends React.Component {
     }
 
     //update board
-    updateBoard(board, size) {
-        this.setState({ board: board });
+    updateBoard(board) {
+        this.setState({ board: board});
     }
 
     //manage shuffle
@@ -54,14 +66,16 @@ class Puzzle extends React.Component {
                                 : null
                         }
                     </div>
-
-                    <input type='submit' className={'btn'} value='Shuffle' onClick={this.newGame.bind(this, 4)} />
+                    <input type='submit' className={'btn'} value='Shuffle' onClick={this.newGame.bind(this, this.props.puzzleSize)} />
                 </div>
             </div>
-
         );
     }
 }
+
+Puzzle.propTypes = {
+    puzzleSize: PropTypes.number.isRequired,
+};
 
 
 export default Puzzle;

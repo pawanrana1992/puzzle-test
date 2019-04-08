@@ -3,10 +3,21 @@ import Tile from "../Tile/Tile";
 import PropTypes from 'prop-types';
 import './_board.scss'
 class Board extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            zero: 0,
+            possibleTopIdx: 0,
+            possiblRightIdx: 0,
+            possiblBottomIdx: 0,
+            possibleLeftIdx: 0
+        }
+        this.boardRef = React.createRef();
+    }
+
     componentWillMount() {
         this.getClickables(this.props.board, this.props.size);
     }
-
     componentWillReceiveProps(nextProps) {
         this.getClickables(nextProps.board, nextProps.size);
     }
@@ -24,7 +35,6 @@ class Board extends React.Component {
         const possiblRightIdx = zeroCoordinate.column < size ? this.getIndexFromCoord(zeroCoordinate.row, zeroCoordinate.column + 1, size) : null;
         const possiblBottomIdx = zeroCoordinate.row < size ? this.getIndexFromCoord(zeroCoordinate.row + 1, zeroCoordinate.column, size) : null;
         const possibleLeftIdx = zeroCoordinate.column > 0 ? this.getIndexFromCoord(zeroCoordinate.row, zeroCoordinate.column - 1, size) : null;
-
         this.setState({
             zero: zeroIndex,
             possibleTopIdx: possibleTopIdx,
@@ -44,8 +54,10 @@ class Board extends React.Component {
 
     tileClickHandler(index) {
         if (index === this.state.possibleTopIdx || index === this.state.possiblRightIdx ||
-            index === this.state.possiblBottomIdx || index === this.state.possibleLeftIdx)
+            index === this.state.possiblBottomIdx || index === this.state.possibleLeftIdx){
             this.nextBoard(index);
+        }
+
     }
 
     nextBoard(index) {
@@ -54,10 +66,37 @@ class Board extends React.Component {
         board[index] = board[this.state.zero];
         board[this.state.zero] = temp;
         this.props.updateBoard(board);
+        let animWrap = this.boardRef.current;
+        console.log(animWrap);
+        let Block = animWrap.children;
+        let indexBlock = Array.from(Block);
+        let animateIt = indexBlock[index];
+        if(index === this.state.possibleTopIdx){
+            animateIt.classList.add('top');
+            console.log(animateIt);
+        }if(index === this.state.possiblRightIdx){
+
+            animateIt.classList.add('right');
+            console.log(animateIt);
+        }
+        if(index === this.state.possiblBottomIdx){
+                  animateIt.classList.add('bottom')
+            console.log(animateIt);
+
+        }
+        if(index === this.state.possibleLeftIdx){
+            animateIt.classList.add('left');
+            console.log(animateIt);
+
+        }
+        //handle anim
+
     }
 
     render() {
-        const squares = this.props.board.map((val, index) => {
+        const {size,board} = this.props;
+
+        const squares = board.map((val, index) => {
             if ((index + 1) % this.props.size === 0) {
                 return (
                     <Tile key={index} value={val} clickHandler={this.tileClickHandler.bind(this, index)}/>
@@ -67,7 +106,7 @@ class Board extends React.Component {
             return <Tile key={index} value={val} clickHandler={this.tileClickHandler.bind(this, index)}/>;
         });
         return (
-            <div className='wrap-box'>
+            <div className='wrap-box' ref={this.boardRef} style={{gridTemplateColumns: `repeat(${size}, 1fr)`,}}>
                 {squares}
             </div>
         );

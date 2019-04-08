@@ -4,15 +4,35 @@
   line-height: 1;
   text-align: center;
   display: block;
-  background-color: $white;
+  background-color: transparent;
   @include border-radius($border-radius*2);
-  font-weight: 700;
+  font-weight: 900;
+  font-size: $base-font-size*1.2;
   font-family: $base-font-family;
   cursor: pointer;
-  color:lighten($black, 20%);
-  @include transition(all 200ms ease-in-out);
+  color:#d0bacb;
+  @include transition(position 200ms ease-in-out);
+  text-shadow: 1px 1px rgba(#332530,1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   &.zero{
     background-color: transparent;
   color: lighten($black, 20%);
+    @include box-shadow(none);
+    text-shadow:none;
+    opacity: 0;
+  }
+  &.move-up {
+    transform: translateY(-100px);
+  }
+  &.move-right {
+    transform: translateX(100px);
+  }
+  &.move-down {
+    transform: translateY(100px);
+  }
+  &.move-left {
+    transform: translateX(-100px);
   }
 }

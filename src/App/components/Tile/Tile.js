@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import './_tile.scss'
+import tileImage from '../../assets/img/tile.png'
 class Tile extends React.Component {
     constructor(props) {
         super(props);
@@ -28,7 +29,7 @@ class Tile extends React.Component {
         const {height} = this.state;
         const cls = this.props.value === 0 ? 'tile zero' : 'tile';
         return (
-            <span style={{height:height, lineHeight:height}} ref={this.tileRef} className={cls} onClick={() => this.props.clickHandler()}>{this.props.value}</span>
+            <div style={{height:height, lineHeight:height,backgroundImage:this.props.value === 0 ? '' : `url(${tileImage})`}} ref={this.tileRef} className={cls} onClick={() => this.props.clickHandler()}>{this.props.value}</div>
         );
     }
 }
