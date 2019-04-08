@@ -11,11 +11,11 @@
   font-family: $base-font-family;
   cursor: pointer;
   color:#d0bacb;
-  @include transition(position 200ms ease-in-out);
   text-shadow: 1px 1px rgba(#332530,1);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  @include transition(transform 100ms cubic-bezier(.7,-0.01,.39,1));
   &.zero{
     background-color: transparent;
   color: lighten($black, 20%);
@@ -23,16 +23,16 @@
     text-shadow:none;
     opacity: 0;
   }
-  &.move-up {
-    transform: translateY(-100px);
-  }
-  &.move-right {
-    transform: translateX(100px);
-  }
-  &.move-down {
-    transform: translateY(100px);
-  }
-  &.move-left {
-    transform: translateX(-100px);
-  }
+  //&.top {
+  //  transform: translateY(-100px);
+  //}
+  //&.right {
+  //  transform: translateX(-100px);
+  //}
+  //&.bottom{
+  //  transform: translateY(-100px);
+  //}
+  //&.left {
+  //  transform: translateX(100px);
+  //}
 }

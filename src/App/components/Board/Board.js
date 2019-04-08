@@ -10,8 +10,9 @@ class Board extends React.Component {
             possibleTopIdx: 0,
             possiblRightIdx: 0,
             possiblBottomIdx: 0,
-            possibleLeftIdx: 0
-        }
+            possibleLeftIdx: 0,
+            tileWidth: 0,
+        };
         this.boardRef = React.createRef();
     }
 
@@ -26,6 +27,9 @@ class Board extends React.Component {
         const curr = this.props.board.join('');
         const next = nextProps.board.join('');
         return curr !== next;
+    }
+    componentWillUnmount(){
+        clearImmediate(this.tm)
     }
 
     getClickables(board, size) {
@@ -53,9 +57,31 @@ class Board extends React.Component {
     }
 
     tileClickHandler(index) {
+        const {tileWidth} = this.state;
         if (index === this.state.possibleTopIdx || index === this.state.possiblRightIdx ||
             index === this.state.possiblBottomIdx || index === this.state.possibleLeftIdx){
-            this.nextBoard(index);
+
+            let animWrap = this.boardRef.current;
+            let Block = animWrap.children;
+            let indexBlock = Array.from(Block);
+            let animateIt = indexBlock[index];
+            if(index === this.state.possibleTopIdx){
+                animateIt.style.transform = `translateY(${tileWidth}px)`;
+            }if(index === this.state.possiblRightIdx){
+                animateIt.style.transform = `translateX(-${tileWidth}px)`;
+            }
+            if(index === this.state.possiblBottomIdx){
+                animateIt.style.transform = `translateY(-${tileWidth}px)`;
+
+            }
+            if(index === this.state.possibleLeftIdx){
+                animateIt.style.transform = `translateX(${tileWidth}px)`;
+
+            }
+            this.tm = setTimeout(()=>{
+                this.nextBoard(index);
+                animateIt.style.transform = 'none';
+            },100);
         }
 
     }
@@ -66,32 +92,17 @@ class Board extends React.Component {
         board[index] = board[this.state.zero];
         board[this.state.zero] = temp;
         this.props.updateBoard(board);
-        let animWrap = this.boardRef.current;
-        console.log(animWrap);
-        let Block = animWrap.children;
-        let indexBlock = Array.from(Block);
-        let animateIt = indexBlock[index];
-        if(index === this.state.possibleTopIdx){
-            animateIt.classList.add('top');
-            console.log(animateIt);
-        }if(index === this.state.possiblRightIdx){
+        clearImmediate(this.tm)
 
-            animateIt.classList.add('right');
-            console.log(animateIt);
-        }
-        if(index === this.state.possiblBottomIdx){
-                  animateIt.classList.add('bottom')
-            console.log(animateIt);
-
-        }
-        if(index === this.state.possibleLeftIdx){
-            animateIt.classList.add('left');
-            console.log(animateIt);
-
-        }
         //handle anim
 
     }
+    getWidth =(width)=>{
+        this.setState({
+            tileWidth:width
+        })
+    };
+
 
     render() {
         const {size,board} = this.props;
@@ -99,11 +110,11 @@ class Board extends React.Component {
         const squares = board.map((val, index) => {
             if ((index + 1) % this.props.size === 0) {
                 return (
-                    <Tile key={index} value={val} clickHandler={this.tileClickHandler.bind(this, index)}/>
+                    <Tile key={index} value={val} getWidth={this.getWidth.bind(this)} clickHandler={this.tileClickHandler.bind(this, index)}/>
 
                 );
             }
-            return <Tile key={index} value={val} clickHandler={this.tileClickHandler.bind(this, index)}/>;
+            return <Tile key={index} value={val} getWidth={this.getWidth.bind(this)} clickHandler={this.tileClickHandler.bind(this, index)}/>;
         });
         return (
             <div className='wrap-box' ref={this.boardRef} style={{gridTemplateColumns: `repeat(${size}, 1fr)`,}}>

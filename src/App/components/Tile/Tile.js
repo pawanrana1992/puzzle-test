@@ -20,6 +20,8 @@ class Tile extends React.Component {
         let elm = this.tileRef.current.clientWidth;
         this.setState({
             height: elm+'px'
+        },()=>{
+            this.props.getWidth(elm)
         })
     };
     componentWillUnmount(){
