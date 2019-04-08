@@ -11,7 +11,7 @@
   font-family: $base-font-family;
   cursor: pointer;
   color:#d0bacb;
-  text-shadow: 1px 1px rgba(#332530,1);
+  text-shadow: 1px 1px rgba(darken($primary-color,10%),1);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

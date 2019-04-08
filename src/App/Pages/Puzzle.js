@@ -2,6 +2,7 @@ import React from "react";
 import Board from "../components/Board/Board";
 import './_Puzzle.scss';
 import PropTypes from 'prop-types';
+import sfIcon from '../assets/img/shuffle.svg'
 class Puzzle extends React.Component {
     constructor(props) {
         super(props);
@@ -66,7 +67,8 @@ class Puzzle extends React.Component {
                                 : null
                         }
                     </div>
-                    <input type='submit' className={'btn'} value='Shuffle' onClick={this.newGame.bind(this, this.props.puzzleSize)} />
+                    <button className={'btn'} value='Shuffle' onClick={this.newGame.bind(this, this.props.puzzleSize)}> <span><img
+                        src={sfIcon} alt=""/></span></button>
                 </div>
             </div>
         );

@@ -39,20 +39,46 @@
     }
   }
 
-  .btn{
-    margin: auto;
+  .btn {
+    background-image: linear-gradient(to right, $primary-color 0%, lighten($primary-color, 10%) 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    display: block;
+    font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+    height: 64px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 4px;
     position: relative;
-    padding: $spacer;
-    background-color: $primary-color;
-    border: 0;
-    @include border-radius($border-radius);
-    color: $white;
-    font-weight: 700;
-    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 2;
+    border:0;
+    width: 64px;
     outline:none;
-    @include transition(all 200ms ease-in-out);
-    &:hover,&:focus{
-      background-color: darken($primary-color, 10%);
+    cursor: pointer;
+    img{
+      opacity: 0.5;
+      max-width: 32px;
     }
+    &:hover {
+      color: #fff;
+      span {
+        background: transparent;
+      }
+    }
+    span {
+      align-items: center;
+      background: darken($primary-color,10%);
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      transition: background .5s ease;
+      width: 100%;
+    }
+
   }
+
 }
