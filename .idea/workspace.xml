@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1728f13c-cbd8-439d-be08-efd5577afa63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App/assets/img/shuffle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Pages/Puzzle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Pages/Puzzle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Pages/_Puzzle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Pages/_Puzzle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/assets/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/assets/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/components/Tile/_tile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/components/Tile/_tile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +25,7 @@
           <entry key="css" value="5" />
           <entry key="gitignore" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="9" />
+          <entry key="js" value="10" />
           <entry key="json" value="2" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
@@ -43,7 +38,7 @@
           <entry key="CSS" value="5" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="9" />
+          <entry key="JavaScript" value="10" />
           <entry key="Log" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -54,7 +49,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="7" />
-          <entry key="js" value="3015" />
+          <entry key="js" value="3016" />
           <entry key="md" value="6009" />
           <entry key="scss" value="1902" />
           <entry key="svg" value="15" />
@@ -63,7 +58,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="JavaScript" value="3015" />
+          <entry key="JavaScript" value="3016" />
           <entry key="Markdown" value="6009" />
           <entry key="SCSS" value="1902" />
           <entry key="SVG" value="15" />
@@ -87,15 +82,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/assets/sass/mixins/_box-shadow.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -129,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/Pages/Puzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="935">
               <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -139,6 +125,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/Pages/_Puzzle.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -217,7 +215,6 @@
         <option value="$PROJECT_DIR$/src/App/pages/_Puzzle.scss" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/App/components/Board/_board.scss" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App/assets/sass/mixins/_box-shadow.scss" />
         <option value="$PROJECT_DIR$/src/App/assets/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/App/components/Tile/Tile.js" />
@@ -227,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/App/components/Tile/_tile.scss" />
         <option value="$PROJECT_DIR$/src/App/assets/img/shuffle.svg" />
         <option value="$PROJECT_DIR$/src/App/Pages/_Puzzle.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -386,12 +384,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554553049822</updated>
       <workItem from="1554553052310" duration="16926000" />
-      <workItem from="1554733204340" duration="9798000" />
+      <workItem from="1554733204340" duration="10409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26724000" />
+    <option name="totallyTimeSpent" value="27335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -529,16 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/assets/img/tile.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -583,16 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Pages/Puzzle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/components/Tile/_tile.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -614,6 +592,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Pages/Puzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Puzzle puzzleSize={6}/>
+        <Puzzle puzzleSize={5}/>
       </div>
     );
   }
