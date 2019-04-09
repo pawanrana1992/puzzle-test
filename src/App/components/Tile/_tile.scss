@@ -10,17 +10,13 @@
   font-size: $base-font-size*1.2;
   font-family: $base-font-family;
   cursor: pointer;
-  color:#d0bacb;
-  text-shadow: 1px 1px rgba(darken($primary-color,10%),1);
+  color:transparent !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   @include transition(transform 100ms cubic-bezier(.7,-0.01,.39,1));
   &.zero{
     background-color: transparent;
-  color: lighten($black, 20%);
-    @include box-shadow(none);
-    text-shadow:none;
     opacity: 0;
   }
   //&.top {
