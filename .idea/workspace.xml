@@ -2,70 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1728f13c-cbd8-439d-be08-efd5577afa63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/56.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/tiles/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/components/Tile/Tile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/components/Tile/Tile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/components/Tile/_tile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/components/Tile/_tile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Pages/Puzzle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Pages/Puzzle.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +51,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="7" />
-          <entry key="js" value="3056" />
+          <entry key="js" value="3069" />
           <entry key="md" value="6009" />
           <entry key="scss" value="1911" />
           <entry key="svg" value="15" />
@@ -123,7 +60,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="JavaScript" value="3056" />
+          <entry key="JavaScript" value="3069" />
           <entry key="Markdown" value="6009" />
           <entry key="SCSS" value="1911" />
           <entry key="SVG" value="15" />
@@ -133,7 +70,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/components/Tile/_tile.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -163,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/components/Board/Board.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
+            <state relative-caret-position="-331">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -177,11 +114,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App/Pages/Puzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+            <state relative-caret-position="213">
+              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -247,12 +184,12 @@
       <find>Cell</find>
       <find>find</find>
       <find>nextBoard</find>
-      <find>shuffle</find>
       <find>updateBoard</find>
       <find>getClickables</find>
       <find>value</find>
       <find>cons</find>
       <find>console</find>
+      <find>shuffle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -284,12 +221,12 @@
         <option value="$PROJECT_DIR$/src/App/assets/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/App/components/Board/Board.js" />
         <option value="$PROJECT_DIR$/src/App/assets/sass/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/App/Pages/Puzzle.js" />
         <option value="$PROJECT_DIR$/src/App/assets/img/shuffle.svg" />
         <option value="$PROJECT_DIR$/src/App/Pages/_Puzzle.scss" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App/components/Tile/Tile.js" />
         <option value="$PROJECT_DIR$/src/App/components/Tile/_tile.scss" />
+        <option value="$PROJECT_DIR$/src/App/Pages/Puzzle.js" />
       </list>
     </option>
   </component>
@@ -337,6 +274,13 @@
               <item name="puzzle-test" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="puzzle-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="puzzle-test" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="tiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="puzzle-test" type="b2602c69:ProjectViewProjectNode" />
@@ -458,12 +402,12 @@
       <workItem from="1554553052310" duration="16926000" />
       <workItem from="1554733204340" duration="10670000" />
       <workItem from="1554781402630" duration="259000" />
-      <workItem from="1554807102044" duration="249000" />
+      <workItem from="1554807102044" duration="493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28104000" />
+    <option name="totallyTimeSpent" value="28348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -623,28 +567,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/components/Board/Board.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/assets/img/shuffle.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Pages/Puzzle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Pages/_Puzzle.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,6 +608,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/components/Board/Board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Pages/Puzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

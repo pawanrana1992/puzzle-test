@@ -17,6 +17,8 @@ class Puzzle extends React.Component {
         this.setState({
             board:sizeArray,
             size:puzzleSize,
+        },()=>{
+            this.newGame(puzzleSize)
         })
     }
 
