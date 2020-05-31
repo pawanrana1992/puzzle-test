@@ -1,4 +1,4 @@
-# Mckinley & Rice React Coding Challenge
+# Creating Puzzle - Coding Challenge
 
 > Welcome to the Mckinley & Rice Coding Challenge!
 
@@ -9,7 +9,7 @@ To complete this challenge, you will need to write a simple [React](https://face
 
 This challenge is expected to take about 2-4 hours.
 
-
+    1`
 
 # 15 Puzzle Challenge
 This challenge is designed to help us understand how you write code. The execution is intentionally open and there's no one right way to solve it. Focus on the code as the visual appearance will not be under review.
@@ -41,6 +41,8 @@ Create a tile puzzle interface that consists of a frame divided into even tiles 
 
 ## Reference
 <https://en.wikipedia.org/wiki/15_puzzle>
+
+## [Demo](http://pawanrana1992.github.io/puzzle-test)
 
 ### Hierarchy of project
 <pre>
