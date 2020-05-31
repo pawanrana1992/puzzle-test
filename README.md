@@ -42,7 +42,7 @@ Create a tile puzzle interface that consists of a frame divided into even tiles 
 ## Reference
 <https://en.wikipedia.org/wiki/15_puzzle>
 
-## [Demo](http://pawanrana1992.github.io/puzzle-test)
+## [Checkout Demo](http://pawanrana1992.github.io/puzzle-test)
 
 ### Hierarchy of project
 <pre>
